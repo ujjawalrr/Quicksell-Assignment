@@ -1,0 +1,26 @@
+.kanban-column{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.kanban-column>.column-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.kanban-column>.column-title>div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.kanban-column>.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.kanban-column .title{
+    font-weight: 600;
+    font-size: 16px;
+}
